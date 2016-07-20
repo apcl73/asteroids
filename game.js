@@ -379,12 +379,12 @@ Ship = function () {
               0, -11,
               6,   7]);
 
-  this.color = 'green';
+  this.color = 'yellow';
   this.solid = true;
 
   this.children.exhaust = new Sprite();
   this.children.exhaust.solid = true;
-  this.children.exhaust.color = 'yellow';
+  this.children.exhaust.color = 'blue';
   this.children.exhaust.init("exhaust",
                              [-3,  6,
                                0, 11,
